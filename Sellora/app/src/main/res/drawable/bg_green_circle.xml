@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Green Circle -->
+    <path
+        android:fillColor="@color/sellora_primary"
+        android:pathData="M40,0 C17.9,0 0,17.9 0,40 C0,62.1 17.9,80 40,80 C62.1,80 80,62.1 80,40 C80,17.9 62.1,0 40,0 Z" />
+
+    <!-- White Tick -->
+    <path
+        android:fillColor="@color/sellora_white"
+        android:pathData="M32,52 L20,40 L23.5,36.5 L32,45 L56.5,20.5 L60,24 Z" />
+
+</vector>

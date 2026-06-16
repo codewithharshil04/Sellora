@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/sellora_white" />
+    <stroke android:width="0.5dp" android:color="@color/sellora_gray_300" />
+</shape>

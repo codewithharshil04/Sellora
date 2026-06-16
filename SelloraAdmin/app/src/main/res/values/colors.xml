@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sellora_primary">#014751</color>
+    <color name="sellora_primary_variant">#003138</color>
+    <color name="sellora_white">#FFFFFF</color>
+    <color name="sellora_dark">#022022</color>
+    <color name="sellora_text_dark">#1A1A1A</color>
+    <color name="sellora_text_gray">#666666</color>
+    <color name="sellora_bg_default">#F8FAFB</color>
+    <color name="sellora_bg_alt">#F0F4F4</color>
+    <color name="sellora_card_bg">#FFFFFF</color>
+    <color name="sellora_success">#10B981</color>
+    <color name="sellora_error">#EF4444</color>
+    <color name="sellora_warning">#F59E0B</color>
+    <color name="sellora_gray_100">#F3F4F6</color>
+    <color name="sellora_gray_200">#E5E7EB</color>
+    <color name="sellora_gray_300">#D1D5DB</color>
+    <color name="sellora_gray_400">#9CA3AF</color>
+    <color name="sellora_gray_500">#6B7280</color>
+    <color name="bottom_nav_active">#014751</color>
+    <color name="bottom_nav_inactive">#9CA3AF</color>
+    <color name="ripple_light">#1A014751</color>
+    <color name="nav_indicator_color">#E0F2F1</color>
+    <color name="primary">@color/sellora_primary</color>
+    <color name="white">@color/sellora_white</color>
+    <color name="status_pending_bg">#FEF3C7</color>
+    <color name="status_pending_text">#92400E</color>
+    <color name="status_delivered_bg">#D1FAE5</color>
+    <color name="status_delivered_text">#065F46</color>
+    <color name="status_cancelled_bg">#FEE2E2</color>
+    <color name="status_cancelled_text">#7F1D1D</color>
+    <color name="status_default_bg">#F3F4F6</color>
+    <color name="status_default_text">#374151</color>
+
+    <!-- Stat Card Backgrounds -->
+    <color name="stat_card_1">#E8F5E9</color>
+    <color name="stat_card_2">#E3F2FD</color>
+    <color name="stat_card_3">#FFF8E1</color>
+    <color name="stat_card_4">#FFEBEE</color>
+</resources>

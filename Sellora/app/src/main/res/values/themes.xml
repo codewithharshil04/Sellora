@@ -1,0 +1,128 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Sellora" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/sellora_primary</item>
+        <item name="colorOnPrimary">@color/sellora_white</item>
+        <item name="colorPrimaryContainer">@color/sellora_white</item>
+        <item name="colorOnPrimaryContainer">@color/sellora_primary</item>
+        <item name="colorSecondary">@color/sellora_primary</item>
+        <item name="colorOnSecondary">@color/sellora_white</item>
+        <item name="colorSecondaryContainer">@color/sellora_white</item>
+        <item name="colorOnSecondaryContainer">@color/sellora_primary</item>
+        <item name="colorSurface">@color/sellora_white</item>
+        <item name="colorOnSurface">@color/sellora_dark</item>
+        <item name="colorOutline">@color/sellora_gray_300</item>
+        <item name="colorOnSurfaceVariant">@color/sellora_text_gray</item>
+        <item name="android:statusBarColor">@color/sellora_primary</item>
+        <item name="android:windowBackground">@color/sellora_bg_default</item>
+        <item name="colorSurfaceContainer">#FFFFFF</item>
+        <item name="colorControlActivated">@color/sellora_primary</item>
+        <item name="colorAccent">@color/sellora_primary</item>
+
+        <!-- Premium Transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/Sellora.Animation.Activity</item>
+
+        <!-- Material 3 Typography Mapping -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Sellora.HeadingLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Sellora.HeadingMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Sellora.BodyLarge</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Sellora.BodySmall</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Sellora.Caption</item>
+
+        <!-- Material 3 Button Defaults -->
+        <item name="materialButtonStyle">@style/Sellora.Button.Primary</item>
+    </style>
+
+    <style name="Theme.Sellora" parent="Base.Theme.Sellora" />
+
+    <!-- ── Activity Animations ── -->
+    <style name="Sellora.Animation.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!-- ── Typography Styles ── -->
+    <style name="TextAppearance.Sellora.HeadingLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/switzer</item>
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.HeadingMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/switzer</item>
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/switzer</item>
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/switzer</item>
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.Caption" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/switzer</item>
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- ── Buttons ── -->
+    <style name="Sellora.Button.Primary" parent="Widget.Material3.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="rippleColor">#33FFFFFF</item> <!-- Soft white ripple -->
+        <item name="android:stateListAnimator">@animator/button_elevation</item>
+    </style>
+
+    <style name="Sellora.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/sellora_primary</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="rippleColor">#1A000000</item> <!-- Soft dark ripple -->
+    </style>
+
+    <!-- ── Shapes ── -->
+    <style name="ShapeAppearance.Sellora.CardImage" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- ── Bottom Nav ── -->
+    <style name="BottomNavIndicatorNone" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:width">0dp</item>
+        <item name="android:height">0dp</item>
+        <item name="shapeAppearance">@null</item>
+        <item name="android:color">@android:color/transparent</item>
+        <item name="color">@android:color/transparent</item>
+    </style>
+
+</resources>

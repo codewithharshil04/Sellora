@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand -->
+    <color name="sellora_primary">#014751</color>
+    <color name="sellora_primary_dark">#005A9E</color>
+    <color name="sellora_primary_container">#D0E8EB</color>
+    <color name="sellora_on_primary_container">#002024</color>
+
+    <color name="sellora_secondary">#0D5C5C</color>
+    <color name="sellora_white">#FFFFFF</color>
+    <color name="sellora_dark">#022022</color>
+
+    <!-- Modern Text Colors -->
+    <color name="sellora_text_primary">#1A1A1A</color>
+    <color name="sellora_text_secondary">#666666</color>
+    <color name="sellora_text_tertiary">#8E8E8E</color>
+
+    <!-- Legacy Color Backwards Compatibility -->
+    <color name="sellora_text_dark">#1A1A1A</color>
+    <color name="sellora_text_gray">#666666</color>
+    <color name="sellora_card_bg">#FFFFFF</color>
+    <color name="sellora_teal_light">#0D5C5C</color>
+
+    <!-- Backgrounds -->
+    <color name="sellora_bg_default">#F6F8FB</color>
+    <color name="sellora_bg_alt">#F0F4F4</color>
+    <color name="sellora_surface">#FFFFFF</color>
+    <color name="sellora_surface_variant">#E0E4E4</color>
+
+    <!-- Status -->
+    <color name="sellora_success">#10B981</color>
+    <color name="sellora_error">#EF4444</color>
+    <color name="sellora_warning">#F59E0B</color>
+
+    <!-- Grays -->
+    <color name="sellora_gray_50">#F9FAFB</color>
+    <color name="sellora_gray_100">#F3F4F6</color>
+    <color name="sellora_gray_200">#E5E7EB</color>
+    <color name="sellora_gray_300">#D1D5DB</color>
+    <color name="sellora_gray_400">#9CA3AF</color>
+    <color name="sellora_gray_500">#ADB5BD</color>
+    
+    <!-- White Opacity -->
+    <color name="sellora_white_80">#CCFFFFFF</color>
+
+    <!-- Misc -->
+    <color name="sellora_divider">#E5E7EB</color>
+    <color name="sellora_placeholder">#A8C8C8</color>
+
+</resources>

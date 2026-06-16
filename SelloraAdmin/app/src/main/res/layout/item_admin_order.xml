@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="5dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/sellora_white"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/sellora_gray_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Row 1: service name + status badge -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:id="@+id/txtServiceName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/sellora_text_dark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/switzer"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Service Name"/>
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/switzer"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:background="@drawable/bg_status_badge"/>
+        </LinearLayout>
+
+        <!-- Row 2: client / partner -->
+        <TextView
+            android:id="@+id/txtClientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sellora_text_gray"
+            android:textSize="13sp"
+            android:fontFamily="@font/switzer"
+            android:text="Client: —"/>
+
+        <TextView
+            android:id="@+id/txtPartnerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sellora_text_gray"
+            android:textSize="13sp"
+            android:fontFamily="@font/switzer"
+            android:text="Partner: —"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sellora_gray_100"
+            android:layout_marginVertical="10dp"/>
+
+        <!-- Row 3: price / date / package -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/sellora_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/switzer"
+                android:text="₹0"/>
+
+            <TextView
+                android:id="@+id/txtPackage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sellora_gray_400"
+                android:textSize="12sp"
+                android:fontFamily="@font/switzer"
+                android:layout_marginEnd="12dp"
+                android:text="Basic"/>
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sellora_gray_400"
+                android:textSize="12sp"
+                android:fontFamily="@font/switzer"
+                android:text="—"/>
+        </LinearLayout>
+
+        <!-- Row 4: action buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAction2"
+                style="@style/Admin.Button.Danger"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="Cancel"
+                android:textSize="13sp"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:minHeight="0dp"
+                android:layout_marginEnd="8dp"
+                android:visibility="gone"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAction1"
+                style="@style/Admin.Button.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="Deliver"
+                android:textSize="13sp"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:minHeight="0dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

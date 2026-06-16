@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="5dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/sellora_white"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/sellora_gray_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Avatar circle -->
+            <TextView
+                android:id="@+id/txtAvatar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColor="@color/sellora_white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/switzer"
+                android:background="@drawable/bg_primary_rounded_14"
+                android:layout_marginEnd="12dp"
+                android:text="U"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sellora_text_dark"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/switzer"
+                    android:text="Name"/>
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sellora_text_gray"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/switzer"
+                    android:text="email@example.com"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sellora_gray_100"
+            android:layout_marginVertical="10dp"/>
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sellora_gray_500"
+            android:textSize="13sp"
+            android:fontFamily="@font/switzer"
+            android:drawablePadding="6dp"
+            android:text="No phone"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

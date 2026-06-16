@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Bottom Navigation Styles -->
+    <style name="TextAppearance.Sellora.BottomNav.Active" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sellora_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.BottomNav.Inactive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/sellora_text_gray</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Widget.Sellora.BottomNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/sellora_primary</item>
+        <item name="android:height">4dp</item>
+        <item name="android:radius">2dp</item>
+    </style>
+
+    <!-- Enhanced Card Styles -->
+    <style name="Widget.Sellora.Card.Enhanced" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/sellora_gray_200</item>
+    </style>
+
+    <!-- Enhanced Input Field Styles -->
+    <style name="Widget.Sellora.TextInputLayout.Enhanced" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxStrokeColor">@color/sellora_primary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxBackgroundColor">@color/sellora_white</item>
+        <item name="hintTextColor">@color/sellora_gray_400</item>
+        <item name="android:textSize">16sp</item>
+        <item name="errorTextColor">@color/sellora_error</item>
+    </style>
+
+    <!-- Enhanced Button Styles -->
+    <style name="Widget.Sellora.Button.Enhanced" parent="Widget.Material3.Button">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="iconPadding">12dp</item>
+        <item name="iconSize">24dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Error Text Appearance -->
+    <style name="TextAppearance.Sellora.ErrorText" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/sellora_error</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Success Text Appearance -->
+    <style name="TextAppearance.Sellora.SuccessText" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/sellora_success</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Loading State Styles -->
+    <style name="Widget.Sellora.Button.Loading" parent="Widget.Sellora.Button.Enhanced">
+        <item name="android:enabled">false</item>
+        <item name="android:text">Loading...</item>
+    </style>
+
+</resources>

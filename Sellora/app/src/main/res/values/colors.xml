@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand -->
+    <color name="sellora_primary">#014751</color>
+    <color name="sellora_primary_variant">#003138</color>
+    <color name="sellora_teal_light">#0D5C5C</color>
+    <color name="sellora_white">#FFFFFF</color>
+    <color name="sellora_dark">#022022</color>
+    <color name="sellora_text_dark">#1A1A1A</color>
+    <color name="sellora_text_gray">#666666</color>
+
+    <!-- Backgrounds -->
+    <color name="sellora_bg_default">#F8FAFB</color>
+    <color name="sellora_bg_alt">#F0F4F4</color>
+    <color name="sellora_card_bg">#FFFFFF</color>
+    <color name="sellora_placeholder">#E9ECEF</color>
+
+    <!-- Status -->
+    <color name="sellora_success">#10B981</color>
+    <color name="sellora_error">#EF4444</color>
+    <color name="sellora_warning">#F59E0B</color>
+
+    <!-- Status Colors for Projects -->
+    <color name="status_pending">#F59E0B</color>
+    <color name="status_in_progress">#0D5C5C</color>
+    <color name="status_delivered">#4CAF50</color>
+    <color name="status_cancelled">#EF4444</color>
+    <color name="status_default">#888888</color>
+    <color name="highlight_order_bg">#FFF3E0</color>
+
+    <!-- Grays / Borders -->
+    <color name="sellora_gray_100">#F3F4F6</color>
+    <color name="sellora_gray_200">#E5E7EB</color>
+    <color name="sellora_gray_300">#D1D5DB</color>
+    <color name="sellora_gray_400">#9CA3AF</color>
+    <color name="sellora_gray_500">#6B7280</color>
+
+    <!-- Selection / Interactions -->
+    <color name="bottom_nav_active">#014751</color>
+    <color name="bottom_nav_inactive">#9CA3AF</color>
+    <color name="ripple_light">#1A014751</color>
+    <color name="heart_active">@color/sellora_error</color>
+    <color name="heart_inactive">@color/sellora_primary</color>
+
+    <!-- Navigation Indicator -->
+    <color name="nav_indicator_color">#E0F2F1</color>
+
+    <!-- Common aliases -->
+    <color name="primary">@color/sellora_primary</color>
+    <color name="background">@color/sellora_bg_default</color>
+    <color name="text_primary">@color/sellora_text_dark</color>
+    <color name="text_hint">@color/sellora_text_gray</color>
+    <color name="error">@color/sellora_error</color>
+    <color name="white">@color/sellora_white</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+
+</resources>

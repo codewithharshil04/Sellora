@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bottom_sheet"
+    android:paddingBottom="32dp">
+
+    <!-- ── Drag Handle ── -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_drag_handle" />
+
+    <!-- ── Header Row: Title + Close ── -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Category"
+            android:textColor="@color/sellora_text_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_close"
+            android:background="@android:color/transparent"
+            android:contentDescription="Close"
+            app:tint="@color/sellora_text_dark"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- ── Divider ── -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/sellora_gray_300" />
+
+    <!-- ── Category Options ── -->
+
+    <!-- All Categories -->
+    <TextView
+        android:id="@+id/optAll"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="All Categories"
+        android:textColor="@color/sellora_text_dark"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_category_item_selector"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sellora_gray_100" />
+
+    <!-- Development -->
+    <TextView
+        android:id="@+id/optDevelopment"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Development"
+        android:textColor="@color/sellora_text_dark"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_category_item_selector"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sellora_gray_100" />
+
+    <!-- Design -->
+    <TextView
+        android:id="@+id/optDesign"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Design"
+        android:textColor="@color/sellora_text_dark"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_category_item_selector"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sellora_gray_100" />
+
+    <!-- Video -->
+    <TextView
+        android:id="@+id/optVideo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Video"
+        android:textColor="@color/sellora_text_dark"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_category_item_selector"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sellora_gray_100" />
+
+    <!-- Writing -->
+    <TextView
+        android:id="@+id/optWriting"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Writing"
+        android:textColor="@color/sellora_text_dark"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_category_item_selector"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sellora_gray_100" />
+
+    <!-- Art -->
+    <TextView
+        android:id="@+id/optArt"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Art"
+        android:textColor="@color/sellora_text_dark"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_category_item_selector"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/sellora_gray_100" />
+
+    <!-- Other -->
+    <TextView
+        android:id="@+id/optOther"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Other"
+        android:textColor="@color/sellora_text_dark"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_category_item_selector"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing System -->
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_default">8dp</dimen>
+    <dimen name="spacing_section">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_screen_padding">32dp</dimen>
+</resources>

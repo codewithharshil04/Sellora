@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Sellora Partner</string>
+    <string name="welcome_user">Welcome, %1$s 👋</string>
+    <string name="welcome_format">Welcome, %1$s 👋</string>
+    <string name="welcome_back">Welcome back! 👋</string>
+    <string name="your_business_at_a_glance">Your business at a glance</string>
+    <string name="total_income_format">₹%.2f</string>
+    <string name="no_service_added">No service added yet</string>
+    <string name="tap_to_add_service">Tap to add your first service</string>
+    <string name="price_range_format">₹%1$s–₹%2$s</string>
+    <string name="btn_add_service">Add Service</string>
+    <string name="btn_edit">Edit</string>
+    <string name="search_hint">Search Projects…</string>
+    <string name="search_services_hint">Search your services…</string>
+    <string name="business_overview">Here\'s your business overview</string>
+    <string name="status_new">NEW</string>
+    <string name="status_in_progress">IN PROGRESS</string>
+    <string name="new_orders">NEW ORDERS</string>
+    <string name="in_progress">IN PROGRESS</string>
+    <string name="delivered">DELIVERED</string>
+    <string name="status_delivered">DELIVERED</string>
+    <string name="status_cancelled">CANCELLED</string>
+    <string name="total_earnings">TOTAL EARNINGS</string>
+    <string name="zero_amount">₹0.00</string>
+    <string name="my_services">My Services</string>
+    <string name="add_new">+ Add New</string>
+    <string name="no_services_active">No services active</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="add_new_service">Add New Service</string>
+    <string name="my_projects">My Projects</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="logout">Logout</string>
+    <string name="error_fetch_services">Error fetching services: %1$s</string>
+    <string name="error_fetch_projects">Failed to load projects</string>
+    <string name="error_upload_file_first">Please upload a delivery file first</string>
+    <string name="dialog_title_complete_delivery">Complete Delivery</string>
+    <string name="dialog_msg_complete_delivery">Mark \"%1$s\" as delivered?</string>
+    <string name="btn_confirm_delivery">Confirm Delivery</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="status_uploading_file">Uploading file…</string>
+    <string name="btn_complete_delivery">Complete Delivery</string>
+    <string name="status_saving">Saving…</string>
+    <string name="msg_delivery_success">Project delivered successfully!</string>
+    <string name="error_upload_failed">File upload failed. Check internet connection.</string>
+    <string name="error_saving_delivery">Error saving delivery: %1$s</string>
+    <string name="error_service_name_required">Service name is required</string>
+    <string name="error_description_required">Description is required</string>
+    <string name="error_category_required">Please select a category</string>
+    <string name="error_price_required">Required</string>
+    <string name="error_delivery_time_required">Delivery time is required</string>
+    <string name="msg_service_updated">Service updated!</string>
+    <string name="msg_service_added">Service added!</string>
+    <string name="error_failed_to_save">Failed to save: %1$s</string>
+
+    <string name="btn_change_video_checked">Change Video  ✓</string>
+    <string name="btn_change_image_checked">Change Image  ✓</string>
+    <string name="btn_change_media">Change Media</string>
+    <string name="step_indicator_format">Step %1$d / 2</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_add">Add</string>
+    <string name="title_edit_service">Edit Service</string>
+    <string name="title_add_service">Add Service</string>
+    <string name="title_edit_pricing">Edit Pricing &amp; Plans</string>
+    <string name="title_pricing_plans">Pricing &amp; Plans</string>
+    <string name="status_uploading_video">Uploading video…</string>
+    <string name="status_uploading_image">Uploading image…</string>
+
+    <string name="error_all_fields_required">Please fill in all fields</string>
+    <string name="error_invalid_phone">Enter a valid 10-digit phone number</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_invalid_pan">Enter a valid PAN Card number (e.g. ABCDE1234F)</string>
+    <string name="error_auth_failed">Auth failed: %1$s</string>
+    <string name="error_save_profile_failed">Failed to save profile: %1$s</string>
+    <string name="error_login_failed">Login failed: %1$s</string>
+    <string name="error_profile_not_found">Partner profile not found. Access denied.</string>
+    <string name="error_fetch_profile_failed">Error fetching profile: %1$s</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="msg_withdraw_coming_soon">Withdraw feature coming soon!</string>
+    <string name="msg_payments_coming_soon">Payment Methods coming soon</string>
+
+    <string name="reset_email_sent">Password reset email sent</string>
+    <string name="reset_email_failed">Failed to send reset email</string>
+
+    <string name="error_name_email_required">Name and Email are required</string>
+    <string name="status_updating">Updating…</string>
+    <string name="error_photo_upload_failed">Photo upload failed</string>
+    <string name="error_update_failed">Update failed: %1$s</string>
+    <string name="msg_profile_updated">Profile updated successfully!</string>
+    <string name="btn_contact_admin">Contact Admin</string>
+
+    <string name="error_no_app_to_open_file">No app found to open this file</string>
+    <string name="status_overdue">Overdue</string>
+    <string name="btn_change_file">Change File</string>
+    <string name="btn_view_delivery">View Your Delivery</string>
+    <string name="error_fetch_details_failed">Failed to refresh project details</string>
+    <string name="msg_opening_file">Opening file…</string>
+
+    <string name="file_selected">File Selected</string>
+    <string name="requirements_attached">Requirements attached (Open below)</string>
+    <string name="btn_open_requirements">Open Requirements</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_description_logo">App Logo</string>
+    <string name="content_description_menu">Open Navigation Menu</string>
+    <string name="content_description_close">Close</string>
+</resources>

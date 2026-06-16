@@ -1,0 +1,125 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SelloraPartner" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/sellora_primary</item>
+        <item name="colorOnPrimary">@color/sellora_white</item>
+        <item name="colorPrimaryContainer">@color/sellora_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/sellora_on_primary_container</item>
+
+        <!-- Secondary Brand Colors -->
+        <item name="colorSecondary">@color/sellora_secondary</item>
+        <item name="colorOnSecondary">@color/sellora_white</item>
+        <item name="colorSecondaryContainer">@color/sellora_primary_container</item>
+        <item name="colorOnSecondaryContainer">@color/sellora_on_primary_container</item>
+
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/sellora_secondary</item>
+        <item name="colorOnTertiary">@color/sellora_white</item>
+        <item name="colorTertiaryContainer">@color/sellora_primary_container</item>
+        <item name="colorOnTertiaryContainer">@color/sellora_on_primary_container</item>
+
+        <!-- Surface and Background -->
+        <item name="colorSurface">@color/sellora_dark</item>
+        <item name="colorOnSurface">@color/sellora_white</item>
+        <item name="colorSurfaceVariant">@color/sellora_dark</item>
+        <item name="colorOnSurfaceVariant">@color/sellora_white</item>
+        <item name="colorOutline">@color/sellora_gray_400</item>
+
+        <item name="android:statusBarColor">@color/sellora_primary</item>
+        <item name="android:windowBackground">@color/sellora_dark</item>
+
+        <item name="colorControlActivated">@color/sellora_primary</item>
+        <item name="colorAccent">@color/sellora_primary</item>
+
+        <!-- Animation System -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+
+        <!-- Button Style -->
+        <item name="materialButtonStyle">@style/Widget.Sellora.Button</item>
+
+        <!-- Typography Mapping -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Sellora.HeadingLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Sellora.HeadingMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Sellora.BodyLarge</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Sellora.BodySmall</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Sellora.Caption</item>
+    </style>
+
+    <style name="Theme.SelloraPartner" parent="Base.Theme.SelloraPartner" />
+
+    <!-- Typography Styles -->
+    <style name="TextAppearance.Sellora.HeadingLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.Headline" parent="TextAppearance.Sellora.HeadingLarge" />
+
+    <style name="TextAppearance.Sellora.HeadingMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.Title" parent="TextAppearance.Sellora.HeadingMedium" />
+
+    <style name="TextAppearance.Sellora.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.Body" parent="TextAppearance.Sellora.BodyLarge" />
+
+    <style name="TextAppearance.Sellora.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.Caption" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.Sellora.Label" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/switzer</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Sellora.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/sellora_dark</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="Widget.Sellora.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.Sellora.Button</item>
+        <item name="android:stateListAnimator">@animator/button_elevation</item>
+    </style>
+
+    <style name="ShapeAppearance.Sellora.Button" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">@dimen/button_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Medium" parent="">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Material3.Corner.Full" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

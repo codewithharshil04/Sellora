@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navDrawer"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@color/sellora_white"
+    android:paddingBottom="40dp">
+
+    <View
+        android:id="@+id/drawerHeader"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/sellora_primary"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/btnCloseDrawer"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_close"
+        android:contentDescription="@string/content_description_close"
+        app:tint="@color/sellora_white"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/sellora_white"
+        style="@style/TextAppearance.Sellora.Title"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="@id/drawerHeader"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/drawerHeader">
+        <TextView android:id="@+id/navDashboard"  style="@style/DrawerItemStyle" android:text="@string/dashboard"/>
+        <TextView android:id="@+id/navAddService" style="@style/DrawerItemStyle" android:text="@string/add_new_service" />
+        <TextView android:id="@+id/navProjects"   style="@style/DrawerItemStyle" android:text="@string/my_projects"/>
+        <TextView android:id="@+id/navProfile"    style="@style/DrawerItemStyle" android:text="@string/profile_settings" />
+        <TextView android:id="@+id/navLogout"     style="@style/DrawerItemStyle" android:text="@string/logout"
+            android:textColor="@color/sellora_error"
+            app:drawableTint="@color/sellora_error"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
