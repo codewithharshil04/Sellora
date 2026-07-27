@@ -1,18 +1,32 @@
 # Sellora
 
-A comprehensive multi-module Android application system consisting of three main applications:
+A multi-module Android freelance marketplace application connecting clients with freelancers, with a dedicated admin dashboard to manage the platform.
+
+Designed in Figma: [Sellora Design File]([https://www.figma.com/design/t3Oa1Xa55mQibq4yff4fp3/Sellora?node-id=0-1&p=f&t=RzaxcQICT3WHuKD2-0](https://www.figma.com/design/t3Oa1Xa55mQibq4yff4fp3/Sellora?node-id=0-1&t=RzaxcQICT3WHuKD2-1))
 
 ## Project Structure
 
-- **Sellora**: Main customer-facing application
-- **SelloraAdmin**: Administrative dashboard for managing the system
-- **SelloraPartner**: Partner application for business collaborators
+This repository contains three independent Android applications:
+
+- **Sellora** — Client-facing app. Clients browse services, review project briefs, make payments, and manage their projects.
+- **SelloraPartner** — Freelancer-facing app. Freelancers set up services, manage project pages, and track their profile/dashboard.
+- **SelloraAdmin** — Administrative dashboard for managing users, orders, and platform settings across both apps.
+
+## Screenshots
+
+### Client App
+<!-- Add client flow screenshots here, e.g.: -->
+<!-- ![Client Flow](./screenshots/client-flow.png) -->
+
+### Freelancer App (SelloraPartner)
+<!-- Add freelancer flow screenshots here, e.g.: -->
+<!-- ![Freelancer Flow](./screenshots/freelancer-flow.png) -->
 
 ## Tech Stack
 
-- **Language**: Kotlin
-- **Build System**: Gradle with Kotlin DSL
-- **Platform**: Android
+- **Language:** Kotlin
+- **Build System:** Gradle with Kotlin DSL
+- **Platform:** Android
 
 ## Getting Started
 
@@ -27,7 +41,7 @@ A comprehensive multi-module Android application system consisting of three main
 Each module can be built independently:
 
 ```bash
-# Build Sellora
+# Build Sellora (Client)
 cd Sellora
 ./gradlew build
 
@@ -49,14 +63,17 @@ cd SelloraPartner
 
 ## Module Descriptions
 
-### Sellora
-The main customer application for end users to interact with the Sellora platform.
+### Sellora (Client)
+
+The main client-facing app. Users can sign up, browse service categories, view service details, submit project briefs, complete payments, and manage their profile and active projects.
+
+### SelloraPartner (Freelancer)
+
+The freelancer-facing app. Freelancers onboard, set up their profile, add and manage services, and track their project pages through a dashboard.
 
 ### SelloraAdmin
-Administrative interface for system administrators to manage users, orders, and platform settings.
 
-### SelloraPartner
-Partner application for business collaborators to manage their partnerships and interactions within the Sellora ecosystem.
+Administrative interface for system administrators to manage users, orders, and platform settings across the Sellora ecosystem.
 
 ## Development
 
@@ -64,4 +81,4 @@ This project uses standard Android development practices with Kotlin. Each modul
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
