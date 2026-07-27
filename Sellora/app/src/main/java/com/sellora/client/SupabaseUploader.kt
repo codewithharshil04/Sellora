@@ -5,6 +5,7 @@ import android.net.Uri
 import android.util.Log
 import android.webkit.MimeTypeMap
 import androidx.core.content.FileProvider
+import com.sellora.client.BuildConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.DataOutputStream
@@ -15,8 +16,8 @@ import java.net.URL
 
 object SupabaseUploader {
 
-    private const val SUPABASE_URL = "https://aeeomqqoneptjqtiawyf.supabase.co"
-    private const val SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFlZW9tcXFvbmVwdGpxdGlhd3lmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM5OTkwNzAsImV4cCI6MjA4OTU3NTA3MH0.MCTSssWfDkGEIrxm_MaAqogfymJK7Q-ntmPpjWTxB34"
+    private val SUPABASE_URL = BuildConfig.SUPABASE_URL
+    private val SUPABASE_KEY = BuildConfig.SUPABASE_KEY
     private const val BUCKET      = "order-files"
 
     suspend fun uploadFile(context: Context, uri: Uri, orderId: String, isDelivery: Boolean = false): String? =
