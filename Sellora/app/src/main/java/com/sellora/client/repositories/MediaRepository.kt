@@ -3,6 +3,7 @@ package com.sellora.client.repositories
 import android.content.Context
 import android.net.Uri
 import android.util.Log
+import com.sellora.client.BuildConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
@@ -23,8 +24,8 @@ import java.net.URL
  */
 object MediaRepository {
 
-    private const val CLOUD_NAME    = "dertbslxi"
-    private const val UPLOAD_PRESET = "sellora_upload"
+    private val CLOUD_NAME    = BuildConfig.CLOUDINARY_CLOUD_NAME
+    private val UPLOAD_PRESET = BuildConfig.CLOUDINARY_UPLOAD_PRESET
     private const val TAG           = "MediaRepository"
 
     /**
