@@ -2,7 +2,7 @@
 
 A multi-module Android freelance marketplace application connecting clients with freelancers, with a dedicated admin dashboard to manage the platform.
 
-Designed in Figma: [Sellora Design File]([https://www.figma.com/design/t3Oa1Xa55mQibq4yff4fp3/Sellora?node-id=0-1&p=f&t=RzaxcQICT3WHuKD2-0](https://www.figma.com/design/t3Oa1Xa55mQibq4yff4fp3/Sellora?node-id=0-1&t=RzaxcQICT3WHuKD2-1))
+Designed in Figma: [Sellora Design File](https://www.figma.com/design/t3Oa1Xa55mQibq4yff4fp3/Sellora?node-id=0-1&p=f&t=RzaxcQICT3WHuKD2-0)
 
 ## Project Structure
 
