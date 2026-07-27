@@ -12,21 +12,13 @@ This repository contains three independent Android applications:
 - **SelloraPartner** — Freelancer-facing app. Freelancers set up services, manage project pages, and track their profile/dashboard.
 - **SelloraAdmin** — Administrative dashboard for managing users, orders, and platform settings across both apps.
 
-## Screenshots
-
-### Client App
-<!-- Add client flow screenshots here, e.g.: -->
-<!-- ![Client Flow](./screenshots/client-flow.png) -->
-
-### Freelancer App (SelloraPartner)
-<!-- Add freelancer flow screenshots here, e.g.: -->
-<!-- ![Freelancer Flow](./screenshots/freelancer-flow.png) -->
-
 ## Tech Stack
 
 - **Language:** Kotlin
 - **Build System:** Gradle with Kotlin DSL
 - **Platform:** Android
+- **Backend / Database:** [Supabase](https://supabase.com)
+- **Media Storage:** [Cloudinary](https://cloudinary.com) (service & profile images)
 
 ## Getting Started
 
